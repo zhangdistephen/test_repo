@@ -1,0 +1,47 @@
+---
+title: News Lead
+date: "2020-02-19"
+author: 'Hongtao Hao'
+slug: news-lead
+categories: []
+tags: []
+blogdown::html_page:
+  toc: true
+  fig_width: 6
+  dev: "svg"
+---
+
+```{r echo=FALSE}
+grades <- read.csv("/Users/Tal/Desktop/c101/static/data/grades_1_3.csv")
+morning <- subset(grades, section==2)
+afternoon <- subset(grades,section == 1)
+```
+
+
+# Grades distribution of the third assignment: News Lead
+
+```{r, echo=FALSE}
+hist(morning$news_lead,
+     breaks = 30,
+     ylim = c(0,15),
+     main = "Friday Morning",
+     xlab = "Grades",
+     ylab = "Number of People",
+     col="orange",
+     border="blue",
+     labels = TRUE
+     )
+```
+
+```{r, echo=FALSE}
+hist(afternoon$news_lead,
+     breaks = 30,
+     ylim = c(0,10),
+     main = "Friday Afternoon",
+     xlab = "Grades",
+     ylab = "Number of People",
+     col="red",
+     border="black",
+     labels = TRUE
+     )
+```

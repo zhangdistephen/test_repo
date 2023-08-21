@@ -1,0 +1,6 @@
+{{ partial "header.html" . }}
+
+{{ if .Params.show_toc }} Table of Contents: {{ .TableOfContents }} {{ end }}
+{{ .Content }}
+
+{{ partial "footer.html" . }}

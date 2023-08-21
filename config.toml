@@ -1,0 +1,60 @@
+baseURL = "https://c1010.hongtaoh.com/"
+languageCode = "en-us"
+title = "C101 Friday Hongtao"
+theme = "hugo-ivy"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+footnotereturnlinkcontents = "↩"
+
+[permalinks]
+    post = "/post/:year/:month/:day/:slug/"
+
+[params]
+    footer = "Built with [<u>Hugo</u>](https://gohugo.io/). Framework copied from [Yihui Xie's <u>personal website</u>.](https://github.com/rbind/yihui)<br />Content in [<u>GitHub Repo</u>.](https://github.com/hongtaoh/c101)"
+
+
+[[menu.main]]
+    name = "Assignments"
+    url = "/assignments/"
+    weight = 1
+[[menu.main]]
+    name = "Slides"
+    url = "/slides/"
+    weight = 2
+[[menu.main]]
+    name = "Class Review"
+    url = "/review/"
+    weight = 3
+[[menu.main]]
+    name = "Grades Distribution"
+    url = "/grades/"
+    weight = 4
+[[menu.main]]
+    name = "Lecture Videos"
+    url = "/videos/"
+    weight = 5
+[[menu.main]]
+    name = "Final Prep"
+    url = "/final/"
+    weight = 6
+[[menu.main]]
+    name = "Students Feedback"
+    url = "/feedback/"
+    weight = 7
+
+[markup]
+   defaultMarkdownHandler = "goldmark"
+   [markup.goldmark]
+    [markup.goldmark.extensions]
+      footnote = true
+      strikethrough = true
+      table = true
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      
+[markup.tableOfContents]
+  endLevel = 2
+  ordered = true
+  startLevel = 1
