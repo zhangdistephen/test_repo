@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Grades distribution of class assignments on C101 Friday Hongtao</title>
+    <link>https://kristenjz.com/grades/</link>
+    <description>Recent content in Grades distribution of class assignments on C101 Friday Hongtao</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://kristenjz.com/grades/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>News Lead</title>
+      <link>https://kristenjz.com/grades/news-lead/</link>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kristenjz.com/grades/news-lead/</guid>
+      <description> Grades distribution of the third assignment: News Lead </description>
+    </item>
+    
+    <item>
+      <title>Debate</title>
+      <link>https://kristenjz.com/grades/first-amendment-debate/</link>
+      <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kristenjz.com/grades/first-amendment-debate/</guid>
+      <description> Grades distribution of the second assignment: First Amendment Debate </description>
+    </item>
+    
+    <item>
+      <title>Media Journal</title>
+      <link>https://kristenjz.com/grades/media-journal/</link>
+      <pubDate>Mon, 17 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kristenjz.com/grades/media-journal/</guid>
+      <description> Grades distribution of the first assignment: Media Journal </description>
+    </item>
+    
+  </channel>
+</rss>
